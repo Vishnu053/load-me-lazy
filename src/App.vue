@@ -14,10 +14,11 @@
     </div>
     </vLazy> -->
 </template>
+
 <script>
 export default {
-  name:"vLazy",
-  props: {
+  name: 'App',
+props: {
     infiniteId: [String, Number],
     infiniteClass: [String],
     infiniteStyle: [String],

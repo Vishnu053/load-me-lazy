@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>load-me-lazy demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./load-me-lazy.umd.js"></script>
+
+<link rel="stylesheet" href="./load-me-lazy.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: load-me-lazy
+  }
+}).$mount('#app')
+</script>

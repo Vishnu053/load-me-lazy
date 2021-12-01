@@ -1,0 +1,1 @@
+https://cli.vuejs.org/guide/build-targets.html#library
