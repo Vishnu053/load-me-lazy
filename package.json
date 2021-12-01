@@ -1,0 +1,25 @@
+{
+  "name": "load-me-lazy",
+  "version": "1.0.0",
+  "description": "A npm module for vue that lets you know when you have scrolled to the bottom of your content.",
+  "main": "src/loadMeLazy.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishnu053/load-me-lazy.git"
+  },
+  "keywords": [
+    "vuejs",
+    "npm",
+    "lazy-load",
+    "infinite-list"
+  ],
+  "author": "Vishnu053",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishnu053/load-me-lazy/issues"
+  },
+  "homepage": "https://github.com/Vishnu053/load-me-lazy#readme"
+}
