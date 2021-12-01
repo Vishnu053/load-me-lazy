@@ -2,9 +2,17 @@
   "name": "load-me-lazy",
   "version": "1.0.0",
   "description": "A npm module for vue that lets you know when you have scrolled to the bottom of your content.",
-  "main": "src/loadMeLazy.vue",
+  "main": "dist/load-me-lazy.umd.js",
+  "module": "dist/load-me-lazy.esm.js",
+  "unpkg": "dist/load-me-lazy.min.js",
+  "browser": {
+    "./sfc":"src/load-me-lazy.vue"
+  }
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/load-me-lazy.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/load-me-lazy.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/load-me-lazy.min.js"
   },
   "repository": {
     "type": "git",
