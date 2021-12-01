@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib"
+    "build": "vue-cli-service build --target lib",
+    "buildwc":"vue-cli-service build --target wc --name load-me-lazy src/App.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
